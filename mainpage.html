@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQI</title>
+    <style>
+        h4{
+            text-align: center;
+            font-size: 30px;
+            color: black;
+            padding: 10px;
+        }
+
+        .head{
+            padding: 20px;
+            background: rgb(241, 209, 113);
+            border-radius: 5px;
+        
+        }
+        .val{
+            background: rgb(246, 148, 200);
+            padding: 10px;
+            position: relative;
+            top:150px;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            width: 300px;
+            left:600px;
+            border-radius: 5px;
+            height: 30px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+    <h4>AQI Prediction for Tomorrow</h4></div>
+
+    <div class="val">
+    <p><b>Predicted AQI Value:{{ aqi }}</b></p></div>
+</body>
+
+</html>
